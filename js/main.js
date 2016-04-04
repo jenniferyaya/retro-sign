@@ -11,4 +11,6 @@ $btn.on('click', function () {
 
   $engage.addClass('is-engage');
 
+  $svg.addClass('.engage');
+
 });
