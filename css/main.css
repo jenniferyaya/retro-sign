@@ -35,32 +35,19 @@ svg {
   stroke-dasharray: 0, 480;
 }
 
-
 .addlines {
 
   animation: addlines 1s;
 
 }
 
-
-
-
 @keyframes addlines {
 
-
-
-
   0% {
-
-
-
 
     stroke-dasharray: 0, 480;
 
   }
-
-
-
 
   100% {
 
@@ -70,31 +57,19 @@ svg {
 
 }
 
-
-
-
-
-
-
-
-
-
 .is-engage path:nth-child(6) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
   transition-delay: .5s;
 
 }
-
-
-
 
 .is-engage path:nth-child(1) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
@@ -102,12 +77,9 @@ svg {
 
 }
 
-
-
-
 .is-engage path:nth-child(2) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
@@ -115,12 +87,9 @@ svg {
 
 }
 
-
-
-
 .is-engage path:nth-child(5) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
@@ -130,24 +99,20 @@ svg {
 
 .is-engage path:nth-child(3) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
   transition-delay: 1s;
 
 }
-
-
-
 
 .is-engage path:nth-child(4) {
 
-  fill: #FF6600;
+  fill: #f60;
 
   transition: all 1s;
 
   transition-delay: 1s;
 
 }
-
