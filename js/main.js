@@ -12,9 +12,3 @@ $btn.on('click', function () {
   $engage.addClass('is-engage');
 
 });
-
-$btn.on('mouseenter', function () {
-
-  $(this).children('path:last-child').css('fill', '#f60');
-
-});
