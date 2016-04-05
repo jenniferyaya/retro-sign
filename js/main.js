@@ -9,8 +9,5 @@ $svg.on('click', function (e) {
   $engage.addClass('is-engage');
   $svg.toggleClass('is-on');
   $btn.toggleClass('btn');
-  $svg.addClass('is-on');
-
+  $svg.addClass('engage');
 });
-
-

@@ -54,7 +54,7 @@ svg {
   animation: addlines 1s forwards;
 }
 
-.is-on {
+.engage {
   fill: #f60;
   transition: 10000ms linear;
 }
