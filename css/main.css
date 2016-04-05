@@ -29,10 +29,12 @@ svg {
 
 .btn {
   cursor: pointer;
+
 }
 
-.button path:last-child {
+.btn path:last-child:hover {
   fill: #f60;
+  transition: 100ms linear;
 }
 
 .btn path:last-child:active {
@@ -46,61 +48,61 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
-  transition: all .5s ease;
 }
 
-.is-on path {
-  stroke-dasharray: 480, 480;
+.addlines {
+  animation: addlines 1s forwards;
 }
 
 .is-on {
-  animation: lines2 1s;
+  fill: #f60;
+  transition: 10000ms linear;
 }
 
-@keyframes lines2 {
+@keyframes addlines {
 
   0% {
-
     stroke-dasharray: 0, 480;
   }
 
   100% {
-    stroke-dasharray: 480, 480;
+    stroke-dasharray: 500, 480;
   }
 }
 
-.engaged path:nth-child(1) {
+.is-engage path:nth-child(6) {
   fill: #f60;
-  transition: all 1s ease;
+  transition: all 1s;
   transition-delay: .5s;
 }
 
-.engaged path:nth-child(6) {
+.is-engage path:nth-child(1) {
   fill: #f60;
-  transition: all 1s ease;
+  transition: all 1s;
   transition-delay: .5s;
 }
 
-.engaged path:nth-child(2) {
+.is-engage path:nth-child(2) {
   fill: #f60;
-  transition: all 2s ease;
+  transition: all 1s;
   transition-delay: .75s;
 }
 
-.engaged path:nth-child(5) {
+.is-engage path:nth-child(5) {
   fill: #f60;
-  transition: all 2s ease;
+  transition: all 1s;
   transition-delay: .75s;
 }
 
-.engaged path:nth-child(3) {
+.is-engage path:nth-child(3) {
   fill: #f60;
-  transition: all 3s ease;
+  transition: all 1s;
   transition-delay: 1s;
 }
 
-.engaged path:nth-child(4) {
+.is-engage path:nth-child(4) {
   fill: #f60;
-  transition: all 3s ease;
+  transition: all 1s;
   transition-delay: 1s;
+
 }
