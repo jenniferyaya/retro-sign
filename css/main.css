@@ -46,18 +46,13 @@ svg {
 
 .lines path {
   stroke-dasharray: 0, 480;
-  transition: all .5s ease;
 }
 
-.is-pressed path {
-  stroke-dasharray: 480, 480;
+.is-on .lines path {
+  animation: addlines 1s forwards;
 }
 
-.is-perssed {
-  animation: lines2 1s;
-}
-
-@keyframes lines2 {
+@keyframes addlines {
 
   0% {
 
